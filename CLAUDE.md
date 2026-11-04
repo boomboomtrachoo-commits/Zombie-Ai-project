@@ -13,6 +13,10 @@ add these flags to every `npx remotion render` / `npx remotion still`, in place 
 --gl=swangle --chrome-mode=chrome-for-testing --browser-executable=/opt/pw-browsers/chromium
 ```
 
+Long renders: software GL is slow (~1 h for 72 s) and Chromium can crash ("Page crashed!") at
+`--concurrency=3` on heavy frames. Render in chunks with `--frames=a-b` (re-render a crashing range with
+`--concurrency=1`) and join with `ffmpeg -f concat -c copy`.
+
 Voice (`tts.py edge` → speech.platform.bing.com) and transcription (faster-whisper model →
 huggingface.co) need those hosts in the environment's network allowlist. On a local machine none
 of this applies: follow the skill as written.

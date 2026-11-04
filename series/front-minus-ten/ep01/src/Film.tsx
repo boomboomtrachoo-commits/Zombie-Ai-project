@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Sequence, useCurrentFrame } from "remotion";
 import { Cam, Shot, type V3 } from "./kit/three";
-import { BlurIn, DUR, FPS, FadeOut, Flash, Grain, LINE, Vig, fr, io, lin } from "./kit/ui";
+import { DUR, FPS, FadeOut, Flash, Grain, LINE, Vig, fr, io, lin } from "./kit/ui";
 import { Char, headCenter, type Pose } from "./rig/char";
 import { DEAD, YOU, YOU_BUCKET, YOU_TABLET } from "./rig/cast";
 import { CROUCH, blendPose, reachPose, runPose } from "./rig/poses";
@@ -103,7 +103,12 @@ const SAutumn = () => {
 };
 /* now: one mound + the hollow; then fresh footprints from it to your door */
 const SOneMound = () => { const f = useCurrentFrame(); return <Shot><Yard gone yourPrints={1} newPrints={1} /><Cam p={MOUND_CAM(f)} t={MOUND_T} fov={44} drift={0.3} /></Shot>; };
-const SPrints: React.FC<{ still?: boolean }> = ({ still }) => { const f = useCurrentFrame(); return <Shot><Yard gone yourPrints={1} newPrints={1} /><Cam p={[0.6, 0.55, 2.6 + (still ? 0 : f * 0.006)]} t={[0.2, 0.0, 14]} fov={40} drift={0.3} /></Shot>; };
+const SPrints: React.FC<{ end?: boolean }> = ({ end }) => {
+  const f = useCurrentFrame();
+  /* end card: blur via the Shot itself (tilt-shift off). A CSS-filter wrapper (BlurIn) round the tilt-shift backdrop-filter crashes software-GL Chromium. */
+  const k = end ? io(f, 0, 15, 0, 1) : 0;
+  return <Shot blur={k * 12} dim={1 - k * 0.35} tilt={!end}><Yard gone yourPrints={1} newPrints={1} /><Cam p={[0.6, 0.55, 2.6 + (end ? 0 : f * 0.006)]} t={[0.2, 0.0, 14]} fov={40} drift={0.3} /></Shot>;
+};
 
 /* ─── the edit, by LINE NUMBER (a new voice take re-times the picture) ─── */
 type Cut = { a: number; b: number; el: React.ReactNode };
@@ -139,7 +144,7 @@ export const CUTS: Cut[] = [
   { a: T(20) - 0.1, b: T(21) - 0.1, el: <><SAutumn /><Clock t="ต.ค." label="ฤดูใบไม้ร่วง" /></> },
   { a: T(21) - 0.1, b: T(22) - 0.1, el: <SOneMound /> },
   { a: T(22) - 0.1, b: END, el: <SPrints /> },
-  { a: END, b: DUR / FPS, el: <><BlurIn><SPrints still /></BlurIn><NextCard /></> },
+  { a: END, b: DUR / FPS, el: <><SPrints end /><NextCard /></> },
 ];
 
 export const HERO_S = T(21);
