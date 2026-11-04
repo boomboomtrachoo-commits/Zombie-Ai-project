@@ -1,0 +1,4 @@
+{
+  "note": "act starts as script line numbers (or seconds). hero = the twist hit (riser lands on it), end = end card (bell). Resolved through src/lines.json, so they follow the voice.",
+  "acts": { "hook": "L1", "setting": "L7", "threat": "L10", "turn": "L17", "hero": "L21", "end": "END" }
+}

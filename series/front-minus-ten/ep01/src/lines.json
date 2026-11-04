@@ -1,0 +1,138 @@
+{
+ "total": 69.4,
+ "lines": [
+  {
+   "th": "ถ้าคืนลบสิบองศา กล้องความร้อนบอกว่าถนนว่าง อย่าเพิ่งเดินออกไป",
+   "en": "If, on a −10 °C night, the thermal camera says the street is empty, don't step outside.",
+   "t": 0.2,
+   "end": 4.06
+  },
+  {
+   "th": "เพราะสิ่งที่อยู่ข้างนอก ไม่เหลือความร้อนแล้ว",
+   "en": "Because what's out there has no heat left.",
+   "t": 4.96,
+   "end": 7.67
+  },
+  {
+   "th": "คนเป็น ตัวอุ่นสามสิบเจ็ดองศา",
+   "en": "A living body is 37 °C.",
+   "t": 8.47,
+   "end": 10.26
+  },
+  {
+   "th": "คนตาย เย็นลงราว ศูนย์จุดแปดองศา ทุกชั่วโมง",
+   "en": "A dead body cools by about 0.8 °C every hour.",
+   "t": 10.86,
+   "end": 13.78
+  },
+  {
+   "th": "ในอากาศแบบนี้ ไม่กี่วัน มันก็เย็นเท่าหิมะ",
+   "en": "In this cold, within days, it's as cold as the snow.",
+   "t": 14.38,
+   "end": 17.08
+  },
+  {
+   "th": "บนจอความร้อน มันจึงหายไป",
+   "en": "On a thermal screen, it simply vanishes.",
+   "t": 17.68,
+   "end": 19.23
+  },
+  {
+   "th": "หกโมงเช้า ห้องใต้ดิน หมู่บ้านโซเนียชเน",
+   "en": "6:00 a.m. A cellar in the village of Sonyachne.",
+   "t": 20.13,
+   "end": 22.66
+  },
+  {
+   "th": "น้ำหมดตั้งแต่เมื่อคืน บ่อน้ำ อยู่ห่างไปสี่สิบเมตร",
+   "en": "The water ran out last night. The well is 40 metres away.",
+   "t": 23.26,
+   "end": 26.43
+  },
+  {
+   "th": "ข้างบ่อ มีเนินหิมะสองเนิน กระสอบทราย ที่คุณวางไว้",
+   "en": "Two snow mounds by the well. The sandbags you stacked.",
+   "t": 27.03,
+   "end": 30.36
+  },
+  {
+   "th": "บุบลิก ไม่ยอมขึ้นบันได มันจ้องไปทางบ่อ",
+   "en": "Bublyk won't take the stairs. He stares toward the well.",
+   "t": 31.16,
+   "end": 33.69
+  },
+  {
+   "th": "คุณไม่เชื่อจอ คุณดูหิมะแทน",
+   "en": "You don't trust the screen. You read the snow instead.",
+   "t": 34.29,
+   "end": 35.96
+  },
+  {
+   "th": "หิมะตกใหม่ ตอนตีสาม กลบรอยเท้าเก่าหมด",
+   "en": "Fresh snow fell at 3 a.m. It buried every old footprint.",
+   "t": 36.56,
+   "end": 39.03
+  },
+  {
+   "th": "อะไรที่ขยับ หลังตีสาม ต้องทิ้งรอยไว้",
+   "en": "Anything that moved after 3 a.m. left a trail.",
+   "t": 39.63,
+   "end": 42.04
+  },
+  {
+   "th": "คุณมองจนสุดถนน ไม่มีรอยเลย สักรอย",
+   "en": "You look down the whole street. Not one print.",
+   "t": 42.64,
+   "end": 44.88
+  },
+  {
+   "th": "หกโมงสิบห้า คุณวิ่งสี่สิบเมตร ตักน้ำ วิ่งกลับ",
+   "en": "6:15. You run 40 metres, fill the bucket, run back.",
+   "t": 45.58,
+   "end": 48.68
+  },
+  {
+   "th": "สามสิบวินาที ไม่มีอะไรขยับ",
+   "en": "Thirty seconds. Nothing moves.",
+   "t": 49.28,
+   "end": 50.95
+  },
+  {
+   "th": "คุณทำถูกทุกอย่าง ยกเว้นเรื่องเดียว",
+   "en": "You got everything right, except one thing.",
+   "t": 52.25,
+   "end": 54.38
+  },
+  {
+   "th": "มันไม่ได้เดินมา หลังตีสาม",
+   "en": "It didn't walk in after 3 a.m.",
+   "t": 55.18,
+   "end": 56.79
+  },
+  {
+   "th": "มันนอนรออยู่ ตั้งแต่ก่อนหิมะตก",
+   "en": "It was lying there before the snow began.",
+   "t": 57.39,
+   "end": 59.29
+  },
+  {
+   "th": "เมื่อฤดูใบไม้ร่วง คุณวางกระสอบทราย ไว้แค่กองเดียว",
+   "en": "Last autumn, you stacked only one pile of sandbags.",
+   "t": 59.89,
+   "end": 63.06
+  },
+  {
+   "th": "ตอนนี้ ข้างบ่อ เหลือเนินเดียว",
+   "en": "Now there is only one mound by the well.",
+   "t": 63.76,
+   "end": 65.77
+  },
+  {
+   "th": "และมีรอยเท้าใหม่ เดินตามคุณ มาถึงประตู",
+   "en": "And fresh footprints follow you to the door.",
+   "t": 66.57,
+   "end": 69.1
+  }
+ ],
+ "note": "ESTIMATED timing (no voice yet: TTS host blocked). Re-time with tts/transcribe/align/splice when voice is available."
+}

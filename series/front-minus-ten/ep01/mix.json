@@ -1,0 +1,17 @@
+{
+  "video": "out/raw.mp4",
+  "voice": "vo/vo_aligned.wav",
+  "out": "out/ep01-v1-silent.mp4",
+  "bgm": { "file": "vo/room.wav", "volume": 0.5 },
+  "clicks_volume": 0.9,
+  "sfx": [
+    { "file": "vo/sfx/wind.wav", "at": "L5", "loop_to": "L7", "volume": 0.45, "lowpass": 2500 },
+    { "file": "vo/sfx/wind.wav", "at": "L11", "loop_to": "L17", "volume": 0.4, "lowpass": 2500 },
+    { "file": "vo/sfx/creak.wav", "at": "L15", "volume": 0.7 },
+    { "file": "vo/sfx/heartbeat.wav", "at": "L16+0.6", "volume": 0.6 },
+    { "file": "vo/sfx/wind.wav", "at": "L18", "loop_to": "L20", "volume": 0.35, "lowpass": 1800 },
+    { "file": "vo/sfx/impact.wav", "at": "L21", "volume": 0.9 },
+    { "file": "vo/sfx/knock1.wav", "at": "L22e+0.2", "volume": 1.0, "lowpass": 1400 }
+  ],
+  "note": "SILENT CUT: vo/vo_aligned.wav is a silent placeholder (voice host blocked). When the real voice exists: run tts/transcribe/align/splice, set out to out/ep01-v1.mp4 and use the skill's mix.py (-14 LUFS)."
+}

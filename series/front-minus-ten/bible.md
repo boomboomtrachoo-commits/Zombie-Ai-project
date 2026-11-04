@@ -85,4 +85,8 @@ Rungs 2–6 are an outline. Every fact line in them must be checked before writi
 | Baba Halya's walking stick | ep 2 | ep 6 |
 
 ## Status (update after every episode)
-- Ep 1: script written 2026-11-04. Not yet produced (needs: look decisions, cellar + yard sets, dog + "dead" rig, voice).
+- Ep 1: produced 2026-11-04 as a SILENT CUT (picture + captions + subtitles + room tone/SFX; timing estimated,
+  voice pending — edge-tts / whisper hosts blocked in the cloud session). Look: default SLIM figure, cold grey snow, gore light.
+  Sets built: `cellar.tsx`, `yard.tsx` (well 40 m from the door; mounds: SANDBAGS [2.9,0,38.4], BODY [0.1,0,38.6]).
+  Rig added: knitted hat + stripe, gloves, frost, bucket + tablet props; Bublyk dog (pets.tsx); DEAD look (cast.ts).
+  Revealed: the dead are invisible on thermal; one lay under the snow by the well. Open: footprints at your door.
