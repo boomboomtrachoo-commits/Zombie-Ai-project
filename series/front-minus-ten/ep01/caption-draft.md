@@ -1,11 +1,48 @@
-# EP1 — caption draft (do not post automatically)
+# EP1 — post copy (TikTok + YouTube Shorts). Post it yourself; nothing is posted automatically.
 
+## TikTok
+Caption:
+```
 ถ้าคืนลบสิบองศา กล้องความร้อนบอกว่าถนนว่าง อย่าเพิ่งเดินออกไป
-คุณอ่านหิมะเป็น ไม่มีรอยเท้าสักรอย… แต่คุณลืมนับอะไรบางอย่างข้างบ่อน้ำ
-ดูซ้ำอีกรอบ แล้วบอกหน่อยว่าเห็นตั้งแต่วินาทีที่เท่าไหร่
-(เรื่องแต่ง / fiction)
+คุณอ่านรอยบนหิมะเป็น ไม่มีรอยเท้าสักรอย แต่มีบางอย่างข้างบ่อน้ำที่คุณนับพลาด
+ดูซ้ำแล้วบอกหน่อย เห็นตั้งแต่วินาทีที่เท่าไหร่
+แนวหน้าลบสิบ ตอนที่ 1 (เรื่องแต่ง)
 
-#แนวหน้าลบสิบ #กฎเอาตัวรอด #ซอมบี้ #เรื่องสั้นสยองขวัญ #แอนิเมชัน3D #fiction
+#แนวหน้าลบสิบ #กฎเอาตัวรอด #ซอมบี้ #เรื่องสั้นสยองขวัญ #แอนิเมชัน3D #fyp
+```
 
-Notes for posting: this is fiction set during a real war. No real people, units or towns; no side is the villain.
-Some platforms limit monetisation for war-related content even when it is fiction.
+## YouTube Shorts
+Title (pick one, ≤ 100 chars):
+1. `ถ้ากล้องความร้อนบอกว่าถนนว่าง อย่าเพิ่งเดินออกไป | แนวหน้าลบสิบ EP1 #Shorts`
+2. `ลบสิบองศา ศพไม่มีความร้อน กล้องจึงมองไม่เห็น | แนวหน้าลบสิบ EP1 #Shorts`
+3. `นับเนินหิมะข้างบ่อน้ำให้ดี | แนวหน้าลบสิบ EP1 #Shorts`
+
+Description:
+```
+ฤดูหนาว ลบสิบองศา หมู่บ้านแนวหน้าที่ไม่เหลือใคร นอกจากคุณกับบุบลิก หมาของคุณ
+น้ำหมดตั้งแต่เมื่อคืน บ่อน้ำอยู่ห่างไปสี่สิบเมตร กล้องความร้อนบอกว่าถนนว่าง
+แต่สิ่งที่อยู่ข้างนอก ไม่เหลือความร้อนแล้ว
+
+แนวหน้าลบสิบ ซีรีส์กฎเอาตัวรอด ตอนละ 1 นาที
+ตอนที่ 1: ถ้ากล้องความร้อนบอกว่าถนนว่าง อย่าเพิ่งเดินออกไป
+ตอนต่อไป: ถ้ามีรอยเท้ามาหยุดที่ประตู อย่าส่องดูผ่านช่องประตู
+
+คุณเห็นสิ่งผิดปกติตั้งแต่วินาทีที่เท่าไหร่ คอมเมนต์บอกหน่อย
+
+ข้อเท็จจริงในคลิป
+- อุณหภูมิร่างกายคนปกติประมาณ 37 °C
+- ศพเย็นลงราว 0.8 °C ต่อชั่วโมงในชั่วโมงแรก ๆ (กฎคร่าว ๆ ทางนิติเวช สมการ Glaister)
+- กล้องความร้อนเห็นความต่างของอุณหภูมิ ของที่เย็นเท่าอากาศจึงกลืนไปกับพื้นหลัง
+
+เรื่องนี้เป็นเรื่องแต่ง หมู่บ้านโซเนียชเนเป็นสถานที่สมมติ ไม่มีบุคคลหรือหน่วยงานจริง และไม่ได้กล่าวโทษฝ่ายใด
+ตัวละคร ฉาก และภาพทั้งหมดสร้างด้วยโค้ด 3D
+
+#แนวหน้าลบสิบ #กฎเอาตัวรอด #ซอมบี้ #เรื่องสั้นสยองขวัญ #แอนิเมชัน3D
+```
+
+## Notes
+- Keep country / war hashtags (#ยูเครน #รัสเซีย #สงคราม) out: they can push the clip into "sensitive event" review
+  and read as using a real war for views. The setting is in the description already.
+- Many platforms limit monetisation for war-related content, even fiction.
+- The animation is clearly not realistic, so YouTube's "altered or synthetic content" disclosure is not required
+  (it covers realistic content). TikTok's AI-generated label is optional for the same reason.
